@@ -1,0 +1,24 @@
+
+<%= render 'shared/navigation' %>
+<%= render 'shared/header', title: t('pages.pricing.title'), description: t('pages.pricing.description') %>
+
+<div class="plan-container">
+  <div class="plan-header">
+    <div class="icon-box"><i class="fa fa-users icon"></i></div>
+    <h2><%= t('pages.pricing.name') %></h2>
+    <p><%= t('pages.pricing.detail') %></p>
+  </div>
+
+  <div class="plan-details">
+    <ul>
+      <%= pricing_content('Tempo de Mercado', '6 anos de experência')%>
+      <%= pricing_content('Conhecimento', 'Java, Ruby on Rails, ABAP, ...')%>
+      <%= pricing_content('Bi-lingue', 'Fluência nativa em Inglês e Português')%>
+    </ul>
+
+    <p>"Perfeição (em design) não é alcançada quando não se tem nada mais a acrescentar mas sim quando não há mais nada a ser retirado", --Antoine de Saint-Exupery [<%= link_to(t('pages.pricing.source'), 'http://www.firstmonday.org/issues/issue3_3/raymond') %>](Tradução Livre)</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<%= render 'shared/footer' %>

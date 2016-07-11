@@ -1,0 +1,18 @@
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <%= link_to( t('pages.navigation.title'), root_path, class: 'navbar-brand') %>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t('pages.navigation.home_link'),    root_path    %></li>
+        <li><%= link_to t('pages.navigation.about_link'),   about_path   %></li>
+        <li><%= link_to t('pages.navigation.pricing_link'), pricing_path %></li>
+        <li><%= link_to t('pages.navigation.contact_link'), contact_path %></li>
+      </ul>
+    </div>
+  </div>
+</nav>

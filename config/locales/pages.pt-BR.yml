@@ -1,0 +1,30 @@
+pt-BR:
+  pages:
+    navigation:
+      title: RD Client
+      home_link: Home
+      about_link: Sobre
+      pricing_link: Preços
+      contact_link: Contato
+
+    footer:
+      copyright: Copyright © José Ricardo Carvalho Prado de Almeida 2016
+
+    about:
+      title: Sobre mim
+      description: Isso é o que eu faço.
+      text: Programador desde 2010. Programo em Java, Python, .Net, Ruby e ABAP.
+
+    contact:
+      description: Entre em contato conosco!
+
+    index:
+      title: RD - Desafio Dev
+      description: Rastreamento de usuários
+
+    pricing:
+      title: Preços
+      description: Bom preço, bom desenvolvimento
+      name: Engenheiro de Software
+      detail: Ruby on Rails a todo vapor!
+      source: Fonte

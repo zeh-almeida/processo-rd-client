@@ -1,0 +1,21 @@
+
+<%= render 'shared/navigation' %>
+<%= render 'shared/header', title: t('pages.index.title'), description: t('pages.index.description') %>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <%= index_content('Executando Testes para Contratação',
+                        'Como mostrar seu potencial com cenários reais',
+                        'José Ricardo', 'http://stackoverflow.com/cv/jose-ricardo-prado-de-almeida-392649') %>
+
+      <%= index_content('A Importância de Desafiar Programadores',
+                        'Deixe o lazy-loading para o programa',
+                        'José Ricardo', "https://br.linkedin.com/in/josé-ricardo-prado-de-almeida-8827b252") %>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<%= render 'shared/footer' %>

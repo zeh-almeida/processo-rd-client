@@ -1,0 +1,26 @@
+pt-BR:
+  activerecord:
+    models:
+      visitor:
+        one: Visitante
+        other: Visitantes
+
+      visitation:
+        one: Visita
+        other: Visitas
+
+    attributes:
+      visitor:
+        id: ID
+        address: Endereço
+        email: E-mail
+        created_at: Criado em
+        updated_at: Última atualização
+
+      visitation:
+        id: ID
+        address: Endereço
+        visitor_id: Visitante
+        visitor: Visitante
+        created_at: Criado em
+        updated_at: Última atualização

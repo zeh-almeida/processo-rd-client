@@ -1,0 +1,12 @@
+
+<%= render 'shared/navigation' %>
+
+<%= render 'shared/header', title:       t('activerecord.models.visitor', count: 2),
+                            description: t('pages.contact.description') %>
+
+<div class="col-sm-12">
+  <%= render( 'form', button_text: t('simple_form.save') ) %>
+</div>
+
+<!-- Footer -->
+<%= render 'shared/footer' %>

@@ -1,0 +1,12 @@
+
+<%= simple_form_for( @visitor ) do |form| %>
+  <%= render 'shared/flash_messages' %>
+
+  <div class="form-inputs col-sm-12" id="contact-form">
+    <%= form.input :email, as: :string, required: true, autofocus: true, wrapper_html: { class: 'col-sm-12' } %>
+
+    <div class="col-sm-12">
+      <%= form.button :submit, button_text, class: 'btn-primary', id: 'form-submit' %>
+    </div>
+  </div>
+<% end %>
